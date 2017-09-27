@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="networkx_key" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>23/09/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="sector" label="sector" />
+      <node id="organisation_sector_tag" label="organisation_sector_tag" />
+      <node id="clearbit_classification" label="clearbit_classification" />
+      <node id="vertical_segment" label="vertical_segment" />
+      <node id="organisation_rival_iq_social_network_descriptions" label="organisation_rival_iq_social_network_descriptions" />
+      <node id="industry_sub_industries" label="industry_sub_industries" />
+      <node id="organisation_single_spend" label="organisation_single_spend" />
+      <node id="organisation_group_structure" label="organisation_group_structure" />
+      <node id="organisation_people" label="organisation_people" />
+      <node id="achieved_brand_accreditations" label="achieved_brand_accreditations" />
+      <node id="organisation" label="organisation" />
+      <node id="organisation_to_rivaliqmapping" label="organisation_to_rivaliqmapping" />
+      <node id="share_capital_structure" label="share_capital_structure" />
+      <node id="search_reseller" label="search_reseller" />
+      <node id="organisation_glassdoor" label="organisation_glassdoor" />
+      <node id="country_organisations_in_country" label="country_organisations_in_country" />
+      <node id="organisation_subsector" label="organisation_subsector" />
+      <node id="organisation_mergers_acquisitions" label="organisation_mergers_acquisitions" />
+      <node id="iqblade_partners" label="iqblade_partners" />
+      <node id="organisation_workforce" label="organisation_workforce" />
+      <node id="financial_dashboard" label="financial_dashboard" />
+      <node id="organisation_accreditation" label="organisation_accreditation" />
+      <node id="organisation_standard" label="organisation_standard" />
+      <node id="industry_group" label="industry_group" />
+      <node id="resolvable_problems" label="resolvable_problems" />
+      <node id="BATCH_JOB_EXECUTION" label="BATCH_JOB_EXECUTION" />
+      <node id="achieved_organisation_accreditation" label="achieved_organisation_accreditation" />
+      <node id="uk_gov_contract_suppliers" label="uk_gov_contract_suppliers" />
+      <node id="hosting_provider" label="hosting_provider" />
+      <node id="news_segment_base_keywords" label="news_segment_base_keywords" />
+      <node id="achieved_healthcareisvcategories" label="achieved_healthcareisvcategories" />
+      <node id="BATCH_JOB_EXECUTION_CONTEXT" label="BATCH_JOB_EXECUTION_CONTEXT" />
+      <node id="abstract_organisation_profile_search_with_accreditation" label="abstract_organisation_profile_search_with_accreditation" />
+      <node id="BATCH_STEP_EXECUTION" label="BATCH_STEP_EXECUTION" />
+      <node id="organisation_metric" label="organisation_metric" />
+      <node id="organisation_monthly_supplier_spend" label="organisation_monthly_supplier_spend" />
+      <node id="rivaliqlandscape" label="rivaliqlandscape" />
+      <node id="organisation_year_values" label="organisation_year_values" />
+      <node id="selected_organisation_segment" label="selected_organisation_segment" />
+      <node id="organisation_accreditation_family" label="organisation_accreditation_family" />
+      <node id="users" label="users" />
+      <node id="technology_record" label="technology_record" />
+      <node id="twitter_history" label="twitter_history" />
+      <node id="facebook_history" label="facebook_history" />
+      <node id="financial_dashboard_chart_definitions" label="financial_dashboard_chart_definitions" />
+      <node id="organisation_sector_classification" label="organisation_sector_classification" />
+      <node id="abstract_organisation_profile_search_sectors" label="abstract_organisation_profile_search_sectors" />
+      <node id="sic_code_mapping" label="sic_code_mapping" />
+      <node id="country_alias" label="country_alias" />
+      <node id="organisation_product_revenue" label="organisation_product_revenue" />
+      <node id="uk_gov_contracts_supplier" label="uk_gov_contracts_supplier" />
+      <node id="selected_organisation_segment_organisations" label="selected_organisation_segment_organisations" />
+      <node id="digital_media_report" label="digital_media_report" />
+      <node id="project_users" label="project_users" />
+      <node id="change_request" label="change_request" />
+      <node id="segment_chart_definitions" label="segment_chart_definitions" />
+      <node id="iqblade_competition" label="iqblade_competition" />
+      <node id="company_name_alias" label="company_name_alias" />
+      <node id="director" label="director" />
+      <node id="BATCH_JOB_EXECUTION_PARAMS" label="BATCH_JOB_EXECUTION_PARAMS" />
+      <node id="organisation_rival_iq_historic_data" label="organisation_rival_iq_historic_data" />
+      <node id="country" label="country" />
+      <node id="organisation_country_presence" label="organisation_country_presence" />
+      <node id="feed_keyword" label="feed_keyword" />
+      <node id="due_north_council_contract" label="due_north_council_contract" />
+      <node id="suggestion" label="suggestion" />
+      <node id="organisation_employee_estimation" label="organisation_employee_estimation" />
+      <node id="sub_sector" label="sub_sector" />
+      <node id="BATCH_STEP_EXECUTION_CONTEXT" label="BATCH_STEP_EXECUTION_CONTEXT" />
+      <node id="industry_group_industries" label="industry_group_industries" />
+      <node id="feed" label="feed" />
+      <node id="sub_industry" label="sub_industry" />
+      <node id="non_limited_head_financials" label="non_limited_head_financials" />
+      <node id="organisation_history" label="organisation_history" />
+      <node id="healthcareisvcategories" label="healthcareisvcategories" />
+      <node id="brands" label="brands" />
+      <node id="project_organisations" label="project_organisations" />
+      <node id="brand_accreditations" label="brand_accreditations" />
+      <node id="sector_industry_groups" label="sector_industry_groups" />
+      <node id="youtube_account" label="youtube_account" />
+      <node id="iqblade_customers" label="iqblade_customers" />
+      <node id="organisation_category" label="organisation_category" />
+      <node id="previous_name" label="previous_name" />
+      <node id="director_profile" label="director_profile" />
+      <node id="feed_message_feeds" label="feed_message_feeds" />
+      <node id="facebook_account" label="facebook_account" />
+      <node id="feed_autotags" label="feed_autotags" />
+      <node id="organisation_monthly_total_spend" label="organisation_monthly_total_spend" />
+      <node id="organisation_front_end_technology" label="organisation_front_end_technology" />
+      <node id="front_end_technology" label="front_end_technology" />
+      <node id="follow_company" label="follow_company" />
+      <node id="feed_message_keywords" label="feed_message_keywords" />
+      <node id="case_study" label="case_study" />
+      <node id="facebook_emails" label="facebook_emails" />
+      <node id="chart_definition" label="chart_definition" />
+      <node id="abstract_organisation_profile_search_without_accreditation" label="abstract_organisation_profile_search_without_accreditation" />
+      <node id="gfk_companies" label="gfk_companies" />
+      <node id="organisation_area_code" label="organisation_area_code" />
+      <node id="organisation_contact" label="organisation_contact" />
+      <node id="project" label="project" />
+      <node id="uk_gov_contract" label="uk_gov_contract" />
+      <node id="industry" label="industry" />
+      <node id="feed_message" label="feed_message" />
+      <node id="iqblade_growth_index" label="iqblade_growth_index" />
+      <node id="office_postcode" label="office_postcode" />
+      <node id="front_end_technology_category" label="front_end_technology_category" />
+      <node id="organisation_rival_iq_summary" label="organisation_rival_iq_summary" />
+      <node id="organisation_area" label="organisation_area" />
+      <node id="twitter_account" label="twitter_account" />
+      <node id="organisation_social_history" label="organisation_social_history" />
+      <node id="abstract_organisation_profile_search_primary_types" label="abstract_organisation_profile_search_primary_types" />
+      <node id="technology" label="technology" />
+      <node id="police_tender" label="police_tender" />
+      <node id="organisation_sic_codes" label="organisation_sic_codes" />
+      <node id="ojeucontract" label="ojeucontract" />
+      <node id="share_detail" label="share_detail" />
+      <node id="uk_gov_contract_industries" label="uk_gov_contract_industries" />
+      <node id="organisation_to_glass_door_mapping" label="organisation_to_glass_door_mapping" />
+      <node id="events" label="events" />
+      <node id="primary_type" label="primary_type" />
+      <node id="iqblade_prospects" label="iqblade_prospects" />
+      <node id="BATCH_JOB_INSTANCE" label="BATCH_JOB_INSTANCE" />
+      <node id="organisation_target_sector" label="organisation_target_sector" />
+      <node id="organisation_phone_numbers" label="organisation_phone_numbers" />
+      <node id="shareholder" label="shareholder" />
+      <node id="domain_aliases" label="domain_aliases" />
+      <node id="authorities" label="authorities" />
+      <node id="segment" label="segment" />
+      <node id="user_interest" label="user_interest" />
+      <node id="potential_sector_tag" label="potential_sector_tag" />
+      <node id="organisation_office" label="organisation_office" />
+      <node id="due_north_contracturl" label="due_north_contracturl" />
+      <node id="ojeucontract_codes" label="ojeucontract_codes" />
+      <node id="abstract_organisation_profile_search" label="abstract_organisation_profile_search" />
+      <node id="youtube_history" label="youtube_history" />
+      <node id="uk_gov_contracts_buyer" label="uk_gov_contracts_buyer" />
+      <node id="cpvcode" label="cpvcode" />
+      <node id="achieved_organisation_standard" label="achieved_organisation_standard" />
+    </nodes>
+    <edges>
+      <edge id="0" source="organisation_sector_tag" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="organisation_sector_tag" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="clearbit_classification" target="industry_group">
+        <attvalues>
+          <attvalue for="0" value="industry_group_id" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="clearbit_classification" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="clearbit_classification" target="industry">
+        <attvalues>
+          <attvalue for="0" value="industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="clearbit_classification" target="sub_industry">
+        <attvalues>
+          <attvalue for="0" value="sub_industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="vertical_segment" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="organisation_rival_iq_social_network_descriptions" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="industry_sub_industries" target="industry">
+        <attvalues>
+          <attvalue for="0" value="industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="industry_sub_industries" target="sub_industry">
+        <attvalues>
+          <attvalue for="0" value="sub_industries_id" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="organisation_single_spend" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="spend_source_match_id" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="organisation_group_structure" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="organisation_people" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="achieved_brand_accreditations" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="achieved_brand_accreditations" target="brand_accreditations">
+        <attvalues>
+          <attvalue for="0" value="industry_accreditation_id" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="organisation" target="twitter_account">
+        <attvalues>
+          <attvalue for="0" value="twitter_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="organisation" target="primary_type">
+        <attvalues>
+          <attvalue for="0" value="primary_type_id" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="organisation" target="clearbit_classification">
+        <attvalues>
+          <attvalue for="0" value="clearbit_classification_id" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="organisation" target="iqblade_growth_index">
+        <attvalues>
+          <attvalue for="0" value="iq_blade_growth_index_id" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="organisation" target="facebook_account">
+        <attvalues>
+          <attvalue for="0" value="facebook_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="organisation" target="youtube_account">
+        <attvalues>
+          <attvalue for="0" value="youtube_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="organisation" target="hosting_provider">
+        <attvalues>
+          <attvalue for="0" value="hosting_provider_id" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="organisation" target="brands">
+        <attvalues>
+          <attvalue for="0" value="brand_id" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="organisation" target="organisation_to_glass_door_mapping">
+        <attvalues>
+          <attvalue for="0" value="glass_door_id" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="organisation_to_rivaliqmapping" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="share_capital_structure" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="search_reseller" target="country">
+        <attvalues>
+          <attvalue for="0" value="country_id" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="organisation_glassdoor" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="country_organisations_in_country" target="country">
+        <attvalues>
+          <attvalue for="0" value="country_id" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="country_organisations_in_country" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisations_in_country_id" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="organisation_subsector" target="sub_sector">
+        <attvalues>
+          <attvalue for="0" value="sub_sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="organisation_subsector" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="organisation_mergers_acquisitions" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="acquired_by_id" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="iqblade_partners" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="iqblade_partners" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="organisation_workforce" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="financial_dashboard" target="abstract_organisation_profile_search">
+        <attvalues>
+          <attvalue for="0" value="search_organisation_by_profile_id" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="financial_dashboard" target="selected_organisation_segment">
+        <attvalues>
+          <attvalue for="0" value="selected_organisation_segment_id" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="organisation_accreditation" target="organisation_accreditation_family">
+        <attvalues>
+          <attvalue for="0" value="family_id" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="industry_group" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="resolvable_problems" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="BATCH_JOB_EXECUTION" target="BATCH_JOB_INSTANCE">
+        <attvalues>
+          <attvalue for="0" value="JOB_INSTANCE_ID" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="achieved_organisation_accreditation" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="achieved_organisation_accreditation" target="organisation_accreditation">
+        <attvalues>
+          <attvalue for="0" value="organisation_accreditation_id" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="uk_gov_contract_suppliers" target="uk_gov_contracts_supplier">
+        <attvalues>
+          <attvalue for="0" value="suppliers_id" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="uk_gov_contract_suppliers" target="uk_gov_contract">
+        <attvalues>
+          <attvalue for="0" value="uk_gov_contract_id" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="news_segment_base_keywords" target="feed_keyword">
+        <attvalues>
+          <attvalue for="0" value="keywords_id" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="achieved_healthcareisvcategories" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="achieved_healthcareisvcategories" target="healthcareisvcategories">
+        <attvalues>
+          <attvalue for="0" value="healthcareisvcategories_id" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="BATCH_JOB_EXECUTION_CONTEXT" target="BATCH_JOB_EXECUTION">
+        <attvalues>
+          <attvalue for="0" value="JOB_EXECUTION_ID" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="abstract_organisation_profile_search_with_accreditation" target="abstract_organisation_profile_search">
+        <attvalues>
+          <attvalue for="0" value="search_partner_id" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="abstract_organisation_profile_search_with_accreditation" target="organisation_accreditation">
+        <attvalues>
+          <attvalue for="0" value="with_accreditation_id" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="BATCH_STEP_EXECUTION" target="BATCH_JOB_EXECUTION">
+        <attvalues>
+          <attvalue for="0" value="JOB_EXECUTION_ID" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="organisation_metric" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="organisation_monthly_supplier_spend" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="rivaliqlandscape" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="organisation_year_values" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="organisation_accreditation_family" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="users" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="technology_record" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="provider_organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="twitter_history" target="twitter_account">
+        <attvalues>
+          <attvalue for="0" value="twitter_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="facebook_history" target="facebook_account">
+        <attvalues>
+          <attvalue for="0" value="facebook_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="financial_dashboard_chart_definitions" target="chart_definition">
+        <attvalues>
+          <attvalue for="0" value="chart_definitions_id" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="financial_dashboard_chart_definitions" target="financial_dashboard">
+        <attvalues>
+          <attvalue for="0" value="financial_dashboard_id" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="organisation_sector_classification" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="organisation_sector_classification" target="industry_group">
+        <attvalues>
+          <attvalue for="0" value="industry_group_id" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="organisation_sector_classification" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="organisation_sector_classification" target="sub_industry">
+        <attvalues>
+          <attvalue for="0" value="sub_industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="organisation_sector_classification" target="industry">
+        <attvalues>
+          <attvalue for="0" value="industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="abstract_organisation_profile_search_sectors" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sectors_id" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="abstract_organisation_profile_search_sectors" target="abstract_organisation_profile_search">
+        <attvalues>
+          <attvalue for="0" value="search_partner_id" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="country_alias" target="country">
+        <attvalues>
+          <attvalue for="0" value="country_id" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="organisation_product_revenue" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="uk_gov_contracts_supplier" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="selected_organisation_segment_organisations" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisations_id" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="selected_organisation_segment_organisations" target="selected_organisation_segment">
+        <attvalues>
+          <attvalue for="0" value="selected_organisation_segment_id" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="digital_media_report" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="project_users" target="project">
+        <attvalues>
+          <attvalue for="0" value="project_id" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="project_users" target="users">
+        <attvalues>
+          <attvalue for="0" value="users_username" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="change_request" target="resolvable_problems">
+        <attvalues>
+          <attvalue for="0" value="problem_id" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="change_request" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_requesting_change_username" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="segment_chart_definitions" target="chart_definition">
+        <attvalues>
+          <attvalue for="0" value="chart_definitions_id" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="segment_chart_definitions" target="segment">
+        <attvalues>
+          <attvalue for="0" value="segment_id" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="iqblade_competition" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="iqblade_competition" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="company_name_alias" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="director" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="BATCH_JOB_EXECUTION_PARAMS" target="BATCH_JOB_EXECUTION">
+        <attvalues>
+          <attvalue for="0" value="JOB_EXECUTION_ID" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="organisation_rival_iq_historic_data" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="organisation_country_presence" target="country">
+        <attvalues>
+          <attvalue for="0" value="country_presence_id" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="organisation_country_presence" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="feed_keyword" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="due_north_council_contract" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="buyer_organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="due_north_council_contract" target="due_north_contracturl">
+        <attvalues>
+          <attvalue for="0" value="contracturlreference_id" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="suggestion" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="organisation_employee_estimation" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="BATCH_STEP_EXECUTION_CONTEXT" target="BATCH_STEP_EXECUTION">
+        <attvalues>
+          <attvalue for="0" value="STEP_EXECUTION_ID" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="industry_group_industries" target="industry_group">
+        <attvalues>
+          <attvalue for="0" value="industry_group_id" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="industry_group_industries" target="industry">
+        <attvalues>
+          <attvalue for="0" value="industries_id" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="sub_industry" target="industry">
+        <attvalues>
+          <attvalue for="0" value="industry_id" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="non_limited_head_financials" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="organisation_history" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="project_organisations" target="project">
+        <attvalues>
+          <attvalue for="0" value="project_id" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="project_organisations" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisations_id" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="brand_accreditations" target="brands">
+        <attvalues>
+          <attvalue for="0" value="brand_id" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="sector_industry_groups" target="industry_group">
+        <attvalues>
+          <attvalue for="0" value="industry_groups_id" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="sector_industry_groups" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="iqblade_customers" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="iqblade_customers" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="organisation_category" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="previous_name" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="director_profile" target="director">
+        <attvalues>
+          <attvalue for="0" value="director_id" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="feed_message_feeds" target="feed">
+        <attvalues>
+          <attvalue for="0" value="feeds_id" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="feed_message_feeds" target="feed_message">
+        <attvalues>
+          <attvalue for="0" value="feed_message_guid" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="feed_autotags" target="feed">
+        <attvalues>
+          <attvalue for="0" value="feed_id" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="feed_autotags" target="feed_keyword">
+        <attvalues>
+          <attvalue for="0" value="autotags_id" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="organisation_monthly_total_spend" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="organisation_front_end_technology" target="front_end_technology">
+        <attvalues>
+          <attvalue for="0" value="front_end_technology_id" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="organisation_front_end_technology" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="front_end_technology" target="front_end_technology_category">
+        <attvalues>
+          <attvalue for="0" value="category_id" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="follow_company" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="follow_company" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="feed_message_keywords" target="feed_message">
+        <attvalues>
+          <attvalue for="0" value="feed_message_guid" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="feed_message_keywords" target="feed_keyword">
+        <attvalues>
+          <attvalue for="0" value="keywords_id" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="case_study" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="facebook_emails" target="facebook_account">
+        <attvalues>
+          <attvalue for="0" value="facebook_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="facebook_emails" target="organisation_social_history">
+        <attvalues>
+          <attvalue for="0" value="history_id" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="abstract_organisation_profile_search_without_accreditation" target="abstract_organisation_profile_search">
+        <attvalues>
+          <attvalue for="0" value="search_partner_id" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="abstract_organisation_profile_search_without_accreditation" target="organisation_accreditation">
+        <attvalues>
+          <attvalue for="0" value="without_accreditation_id" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="gfk_companies" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="organisation_area_code" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="organisation_contact" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="project" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="uk_gov_contract" target="uk_gov_contracts_buyer">
+        <attvalues>
+          <attvalue for="0" value="buyer_id" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="industry" target="industry_group">
+        <attvalues>
+          <attvalue for="0" value="industry_group_id" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="iqblade_growth_index" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="office_postcode" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="organisation_rival_iq_summary" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="organisation_area" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="organisation_social_history" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="abstract_organisation_profile_search_primary_types" target="abstract_organisation_profile_search">
+        <attvalues>
+          <attvalue for="0" value="search_partner_id" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="abstract_organisation_profile_search_primary_types" target="primary_type">
+        <attvalues>
+          <attvalue for="0" value="primary_types_id" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="technology" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="police_tender" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_using_id" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="organisation_sic_codes" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="organisation_sic_codes" target="sic_code_mapping">
+        <attvalues>
+          <attvalue for="0" value="sic_code_mapping_id" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="share_detail" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="uk_gov_contract_industries" target="uk_gov_contract">
+        <attvalues>
+          <attvalue for="0" value="uk_gov_contract_id" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="organisation_to_glass_door_mapping" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="events" target="brands">
+        <attvalues>
+          <attvalue for="0" value="brand_id" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="events" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="iqblade_prospects" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="iqblade_prospects" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="organisation_target_sector" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="organisation_target_sector" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="organisation_phone_numbers" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="shareholder" target="share_capital_structure">
+        <attvalues>
+          <attvalue for="0" value="share_capital_structure_id" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="domain_aliases" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="authorities" target="users">
+        <attvalues>
+          <attvalue for="0" value="username" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="user_interest" target="users">
+        <attvalues>
+          <attvalue for="0" value="user_username" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="potential_sector_tag" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="potential_sector_tag" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="organisation_office" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="ojeucontract_codes" target="cpvcode">
+        <attvalues>
+          <attvalue for="0" value="codes_id" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="ojeucontract_codes" target="ojeucontract">
+        <attvalues>
+          <attvalue for="0" value="ojeucontract_id" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="abstract_organisation_profile_search" target="sector">
+        <attvalues>
+          <attvalue for="0" value="sector_id" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="abstract_organisation_profile_search" target="country">
+        <attvalues>
+          <attvalue for="0" value="country_id" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="youtube_history" target="youtube_account">
+        <attvalues>
+          <attvalue for="0" value="youtube_account_id" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="achieved_organisation_standard" target="organisation">
+        <attvalues>
+          <attvalue for="0" value="organisation_id" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="achieved_organisation_standard" target="organisation_standard">
+        <attvalues>
+          <attvalue for="0" value="organisation_standard_id" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

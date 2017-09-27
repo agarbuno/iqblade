@@ -1,0 +1,1273 @@
+{
+    "directed": true, 
+    "graph": {}, 
+    "nodes": [
+        {
+            "id": "sector"
+        }, 
+        {
+            "id": "organisation_sector_tag"
+        }, 
+        {
+            "id": "clearbit_classification"
+        }, 
+        {
+            "id": "vertical_segment"
+        }, 
+        {
+            "id": "organisation_rival_iq_social_network_descriptions"
+        }, 
+        {
+            "id": "industry_sub_industries"
+        }, 
+        {
+            "id": "organisation_single_spend"
+        }, 
+        {
+            "id": "organisation_group_structure"
+        }, 
+        {
+            "id": "organisation_people"
+        }, 
+        {
+            "id": "achieved_brand_accreditations"
+        }, 
+        {
+            "id": "organisation"
+        }, 
+        {
+            "id": "organisation_to_rivaliqmapping"
+        }, 
+        {
+            "id": "share_capital_structure"
+        }, 
+        {
+            "id": "search_reseller"
+        }, 
+        {
+            "id": "organisation_glassdoor"
+        }, 
+        {
+            "id": "country_organisations_in_country"
+        }, 
+        {
+            "id": "organisation_subsector"
+        }, 
+        {
+            "id": "organisation_mergers_acquisitions"
+        }, 
+        {
+            "id": "iqblade_partners"
+        }, 
+        {
+            "id": "organisation_workforce"
+        }, 
+        {
+            "id": "financial_dashboard"
+        }, 
+        {
+            "id": "organisation_accreditation"
+        }, 
+        {
+            "id": "organisation_standard"
+        }, 
+        {
+            "id": "industry_group"
+        }, 
+        {
+            "id": "resolvable_problems"
+        }, 
+        {
+            "id": "BATCH_JOB_EXECUTION"
+        }, 
+        {
+            "id": "achieved_organisation_accreditation"
+        }, 
+        {
+            "id": "uk_gov_contract_suppliers"
+        }, 
+        {
+            "id": "hosting_provider"
+        }, 
+        {
+            "id": "news_segment_base_keywords"
+        }, 
+        {
+            "id": "achieved_healthcareisvcategories"
+        }, 
+        {
+            "id": "BATCH_JOB_EXECUTION_CONTEXT"
+        }, 
+        {
+            "id": "abstract_organisation_profile_search_with_accreditation"
+        }, 
+        {
+            "id": "BATCH_STEP_EXECUTION"
+        }, 
+        {
+            "id": "organisation_metric"
+        }, 
+        {
+            "id": "organisation_monthly_supplier_spend"
+        }, 
+        {
+            "id": "rivaliqlandscape"
+        }, 
+        {
+            "id": "organisation_year_values"
+        }, 
+        {
+            "id": "selected_organisation_segment"
+        }, 
+        {
+            "id": "organisation_accreditation_family"
+        }, 
+        {
+            "id": "users"
+        }, 
+        {
+            "id": "technology_record"
+        }, 
+        {
+            "id": "twitter_history"
+        }, 
+        {
+            "id": "facebook_history"
+        }, 
+        {
+            "id": "financial_dashboard_chart_definitions"
+        }, 
+        {
+            "id": "organisation_sector_classification"
+        }, 
+        {
+            "id": "abstract_organisation_profile_search_sectors"
+        }, 
+        {
+            "id": "sic_code_mapping"
+        }, 
+        {
+            "id": "country_alias"
+        }, 
+        {
+            "id": "organisation_product_revenue"
+        }, 
+        {
+            "id": "uk_gov_contracts_supplier"
+        }, 
+        {
+            "id": "selected_organisation_segment_organisations"
+        }, 
+        {
+            "id": "digital_media_report"
+        }, 
+        {
+            "id": "project_users"
+        }, 
+        {
+            "id": "change_request"
+        }, 
+        {
+            "id": "segment_chart_definitions"
+        }, 
+        {
+            "id": "iqblade_competition"
+        }, 
+        {
+            "id": "company_name_alias"
+        }, 
+        {
+            "id": "director"
+        }, 
+        {
+            "id": "BATCH_JOB_EXECUTION_PARAMS"
+        }, 
+        {
+            "id": "organisation_rival_iq_historic_data"
+        }, 
+        {
+            "id": "country"
+        }, 
+        {
+            "id": "organisation_country_presence"
+        }, 
+        {
+            "id": "feed_keyword"
+        }, 
+        {
+            "id": "due_north_council_contract"
+        }, 
+        {
+            "id": "suggestion"
+        }, 
+        {
+            "id": "organisation_employee_estimation"
+        }, 
+        {
+            "id": "sub_sector"
+        }, 
+        {
+            "id": "BATCH_STEP_EXECUTION_CONTEXT"
+        }, 
+        {
+            "id": "industry_group_industries"
+        }, 
+        {
+            "id": "feed"
+        }, 
+        {
+            "id": "sub_industry"
+        }, 
+        {
+            "id": "non_limited_head_financials"
+        }, 
+        {
+            "id": "organisation_history"
+        }, 
+        {
+            "id": "healthcareisvcategories"
+        }, 
+        {
+            "id": "brands"
+        }, 
+        {
+            "id": "project_organisations"
+        }, 
+        {
+            "id": "brand_accreditations"
+        }, 
+        {
+            "id": "sector_industry_groups"
+        }, 
+        {
+            "id": "youtube_account"
+        }, 
+        {
+            "id": "iqblade_customers"
+        }, 
+        {
+            "id": "organisation_category"
+        }, 
+        {
+            "id": "previous_name"
+        }, 
+        {
+            "id": "director_profile"
+        }, 
+        {
+            "id": "feed_message_feeds"
+        }, 
+        {
+            "id": "facebook_account"
+        }, 
+        {
+            "id": "feed_autotags"
+        }, 
+        {
+            "id": "organisation_monthly_total_spend"
+        }, 
+        {
+            "id": "organisation_front_end_technology"
+        }, 
+        {
+            "id": "front_end_technology"
+        }, 
+        {
+            "id": "follow_company"
+        }, 
+        {
+            "id": "feed_message_keywords"
+        }, 
+        {
+            "id": "case_study"
+        }, 
+        {
+            "id": "facebook_emails"
+        }, 
+        {
+            "id": "chart_definition"
+        }, 
+        {
+            "id": "abstract_organisation_profile_search_without_accreditation"
+        }, 
+        {
+            "id": "gfk_companies"
+        }, 
+        {
+            "id": "organisation_area_code"
+        }, 
+        {
+            "id": "organisation_contact"
+        }, 
+        {
+            "id": "project"
+        }, 
+        {
+            "id": "uk_gov_contract"
+        }, 
+        {
+            "id": "industry"
+        }, 
+        {
+            "id": "feed_message"
+        }, 
+        {
+            "id": "iqblade_growth_index"
+        }, 
+        {
+            "id": "office_postcode"
+        }, 
+        {
+            "id": "front_end_technology_category"
+        }, 
+        {
+            "id": "organisation_rival_iq_summary"
+        }, 
+        {
+            "id": "organisation_area"
+        }, 
+        {
+            "id": "twitter_account"
+        }, 
+        {
+            "id": "organisation_social_history"
+        }, 
+        {
+            "id": "abstract_organisation_profile_search_primary_types"
+        }, 
+        {
+            "id": "technology"
+        }, 
+        {
+            "id": "police_tender"
+        }, 
+        {
+            "id": "organisation_sic_codes"
+        }, 
+        {
+            "id": "ojeucontract"
+        }, 
+        {
+            "id": "share_detail"
+        }, 
+        {
+            "id": "uk_gov_contract_industries"
+        }, 
+        {
+            "id": "organisation_to_glass_door_mapping"
+        }, 
+        {
+            "id": "events"
+        }, 
+        {
+            "id": "primary_type"
+        }, 
+        {
+            "id": "iqblade_prospects"
+        }, 
+        {
+            "id": "BATCH_JOB_INSTANCE"
+        }, 
+        {
+            "id": "organisation_target_sector"
+        }, 
+        {
+            "id": "organisation_phone_numbers"
+        }, 
+        {
+            "id": "shareholder"
+        }, 
+        {
+            "id": "domain_aliases"
+        }, 
+        {
+            "id": "authorities"
+        }, 
+        {
+            "id": "segment"
+        }, 
+        {
+            "id": "user_interest"
+        }, 
+        {
+            "id": "potential_sector_tag"
+        }, 
+        {
+            "id": "organisation_office"
+        }, 
+        {
+            "id": "due_north_contracturl"
+        }, 
+        {
+            "id": "ojeucontract_codes"
+        }, 
+        {
+            "id": "abstract_organisation_profile_search"
+        }, 
+        {
+            "id": "youtube_history"
+        }, 
+        {
+            "id": "uk_gov_contracts_buyer"
+        }, 
+        {
+            "id": "cpvcode"
+        }, 
+        {
+            "id": "achieved_organisation_standard"
+        }
+    ], 
+    "links": [
+        {
+            "source": "organisation_sector_tag", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "organisation_sector_tag", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "clearbit_classification", 
+            "target": "industry_group", 
+            "key": "industry_group_id"
+        }, 
+        {
+            "source": "clearbit_classification", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "clearbit_classification", 
+            "target": "industry", 
+            "key": "industry_id"
+        }, 
+        {
+            "source": "clearbit_classification", 
+            "target": "sub_industry", 
+            "key": "sub_industry_id"
+        }, 
+        {
+            "source": "vertical_segment", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_rival_iq_social_network_descriptions", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "industry_sub_industries", 
+            "target": "industry", 
+            "key": "industry_id"
+        }, 
+        {
+            "source": "industry_sub_industries", 
+            "target": "sub_industry", 
+            "key": "sub_industries_id"
+        }, 
+        {
+            "source": "organisation_single_spend", 
+            "target": "organisation", 
+            "key": "spend_source_match_id"
+        }, 
+        {
+            "source": "organisation_group_structure", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_people", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "achieved_brand_accreditations", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "achieved_brand_accreditations", 
+            "target": "brand_accreditations", 
+            "key": "industry_accreditation_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "twitter_account", 
+            "key": "twitter_account_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "primary_type", 
+            "key": "primary_type_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "clearbit_classification", 
+            "key": "clearbit_classification_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "iqblade_growth_index", 
+            "key": "iq_blade_growth_index_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "facebook_account", 
+            "key": "facebook_account_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "youtube_account", 
+            "key": "youtube_account_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "hosting_provider", 
+            "key": "hosting_provider_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "brands", 
+            "key": "brand_id"
+        }, 
+        {
+            "source": "organisation", 
+            "target": "organisation_to_glass_door_mapping", 
+            "key": "glass_door_id"
+        }, 
+        {
+            "source": "organisation_to_rivaliqmapping", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "share_capital_structure", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "search_reseller", 
+            "target": "country", 
+            "key": "country_id"
+        }, 
+        {
+            "source": "organisation_glassdoor", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "country_organisations_in_country", 
+            "target": "country", 
+            "key": "country_id"
+        }, 
+        {
+            "source": "country_organisations_in_country", 
+            "target": "organisation", 
+            "key": "organisations_in_country_id"
+        }, 
+        {
+            "source": "organisation_subsector", 
+            "target": "sub_sector", 
+            "key": "sub_sector_id"
+        }, 
+        {
+            "source": "organisation_subsector", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_mergers_acquisitions", 
+            "target": "organisation", 
+            "key": "acquired_by_id"
+        }, 
+        {
+            "source": "iqblade_partners", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "iqblade_partners", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "organisation_workforce", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "financial_dashboard", 
+            "target": "abstract_organisation_profile_search", 
+            "key": "search_organisation_by_profile_id"
+        }, 
+        {
+            "source": "financial_dashboard", 
+            "target": "selected_organisation_segment", 
+            "key": "selected_organisation_segment_id"
+        }, 
+        {
+            "source": "organisation_accreditation", 
+            "target": "organisation_accreditation_family", 
+            "key": "family_id"
+        }, 
+        {
+            "source": "industry_group", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "resolvable_problems", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "BATCH_JOB_EXECUTION", 
+            "target": "BATCH_JOB_INSTANCE", 
+            "key": "JOB_INSTANCE_ID"
+        }, 
+        {
+            "source": "achieved_organisation_accreditation", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "achieved_organisation_accreditation", 
+            "target": "organisation_accreditation", 
+            "key": "organisation_accreditation_id"
+        }, 
+        {
+            "source": "uk_gov_contract_suppliers", 
+            "target": "uk_gov_contracts_supplier", 
+            "key": "suppliers_id"
+        }, 
+        {
+            "source": "uk_gov_contract_suppliers", 
+            "target": "uk_gov_contract", 
+            "key": "uk_gov_contract_id"
+        }, 
+        {
+            "source": "news_segment_base_keywords", 
+            "target": "feed_keyword", 
+            "key": "keywords_id"
+        }, 
+        {
+            "source": "achieved_healthcareisvcategories", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "achieved_healthcareisvcategories", 
+            "target": "healthcareisvcategories", 
+            "key": "healthcareisvcategories_id"
+        }, 
+        {
+            "source": "BATCH_JOB_EXECUTION_CONTEXT", 
+            "target": "BATCH_JOB_EXECUTION", 
+            "key": "JOB_EXECUTION_ID"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_with_accreditation", 
+            "target": "abstract_organisation_profile_search", 
+            "key": "search_partner_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_with_accreditation", 
+            "target": "organisation_accreditation", 
+            "key": "with_accreditation_id"
+        }, 
+        {
+            "source": "BATCH_STEP_EXECUTION", 
+            "target": "BATCH_JOB_EXECUTION", 
+            "key": "JOB_EXECUTION_ID"
+        }, 
+        {
+            "source": "organisation_metric", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_monthly_supplier_spend", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "rivaliqlandscape", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_year_values", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_accreditation_family", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "users", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "technology_record", 
+            "target": "organisation", 
+            "key": "provider_organisation_id"
+        }, 
+        {
+            "source": "twitter_history", 
+            "target": "twitter_account", 
+            "key": "twitter_account_id"
+        }, 
+        {
+            "source": "facebook_history", 
+            "target": "facebook_account", 
+            "key": "facebook_account_id"
+        }, 
+        {
+            "source": "financial_dashboard_chart_definitions", 
+            "target": "chart_definition", 
+            "key": "chart_definitions_id"
+        }, 
+        {
+            "source": "financial_dashboard_chart_definitions", 
+            "target": "financial_dashboard", 
+            "key": "financial_dashboard_id"
+        }, 
+        {
+            "source": "organisation_sector_classification", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "organisation_sector_classification", 
+            "target": "industry_group", 
+            "key": "industry_group_id"
+        }, 
+        {
+            "source": "organisation_sector_classification", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_sector_classification", 
+            "target": "sub_industry", 
+            "key": "sub_industry_id"
+        }, 
+        {
+            "source": "organisation_sector_classification", 
+            "target": "industry", 
+            "key": "industry_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_sectors", 
+            "target": "sector", 
+            "key": "sectors_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_sectors", 
+            "target": "abstract_organisation_profile_search", 
+            "key": "search_partner_id"
+        }, 
+        {
+            "source": "country_alias", 
+            "target": "country", 
+            "key": "country_id"
+        }, 
+        {
+            "source": "organisation_product_revenue", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "uk_gov_contracts_supplier", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "selected_organisation_segment_organisations", 
+            "target": "organisation", 
+            "key": "organisations_id"
+        }, 
+        {
+            "source": "selected_organisation_segment_organisations", 
+            "target": "selected_organisation_segment", 
+            "key": "selected_organisation_segment_id"
+        }, 
+        {
+            "source": "digital_media_report", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "project_users", 
+            "target": "project", 
+            "key": "project_id"
+        }, 
+        {
+            "source": "project_users", 
+            "target": "users", 
+            "key": "users_username"
+        }, 
+        {
+            "source": "change_request", 
+            "target": "resolvable_problems", 
+            "key": "problem_id"
+        }, 
+        {
+            "source": "change_request", 
+            "target": "users", 
+            "key": "user_requesting_change_username"
+        }, 
+        {
+            "source": "segment_chart_definitions", 
+            "target": "chart_definition", 
+            "key": "chart_definitions_id"
+        }, 
+        {
+            "source": "segment_chart_definitions", 
+            "target": "segment", 
+            "key": "segment_id"
+        }, 
+        {
+            "source": "iqblade_competition", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "iqblade_competition", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "company_name_alias", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "director", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "BATCH_JOB_EXECUTION_PARAMS", 
+            "target": "BATCH_JOB_EXECUTION", 
+            "key": "JOB_EXECUTION_ID"
+        }, 
+        {
+            "source": "organisation_rival_iq_historic_data", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_country_presence", 
+            "target": "country", 
+            "key": "country_presence_id"
+        }, 
+        {
+            "source": "organisation_country_presence", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "feed_keyword", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "due_north_council_contract", 
+            "target": "organisation", 
+            "key": "buyer_organisation_id"
+        }, 
+        {
+            "source": "due_north_council_contract", 
+            "target": "due_north_contracturl", 
+            "key": "contracturlreference_id"
+        }, 
+        {
+            "source": "suggestion", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "organisation_employee_estimation", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "BATCH_STEP_EXECUTION_CONTEXT", 
+            "target": "BATCH_STEP_EXECUTION", 
+            "key": "STEP_EXECUTION_ID"
+        }, 
+        {
+            "source": "industry_group_industries", 
+            "target": "industry_group", 
+            "key": "industry_group_id"
+        }, 
+        {
+            "source": "industry_group_industries", 
+            "target": "industry", 
+            "key": "industries_id"
+        }, 
+        {
+            "source": "sub_industry", 
+            "target": "industry", 
+            "key": "industry_id"
+        }, 
+        {
+            "source": "non_limited_head_financials", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_history", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "project_organisations", 
+            "target": "project", 
+            "key": "project_id"
+        }, 
+        {
+            "source": "project_organisations", 
+            "target": "organisation", 
+            "key": "organisations_id"
+        }, 
+        {
+            "source": "brand_accreditations", 
+            "target": "brands", 
+            "key": "brand_id"
+        }, 
+        {
+            "source": "sector_industry_groups", 
+            "target": "industry_group", 
+            "key": "industry_groups_id"
+        }, 
+        {
+            "source": "sector_industry_groups", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "iqblade_customers", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "iqblade_customers", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "organisation_category", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "previous_name", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "director_profile", 
+            "target": "director", 
+            "key": "director_id"
+        }, 
+        {
+            "source": "feed_message_feeds", 
+            "target": "feed", 
+            "key": "feeds_id"
+        }, 
+        {
+            "source": "feed_message_feeds", 
+            "target": "feed_message", 
+            "key": "feed_message_guid"
+        }, 
+        {
+            "source": "feed_autotags", 
+            "target": "feed", 
+            "key": "feed_id"
+        }, 
+        {
+            "source": "feed_autotags", 
+            "target": "feed_keyword", 
+            "key": "autotags_id"
+        }, 
+        {
+            "source": "organisation_monthly_total_spend", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_front_end_technology", 
+            "target": "front_end_technology", 
+            "key": "front_end_technology_id"
+        }, 
+        {
+            "source": "organisation_front_end_technology", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "front_end_technology", 
+            "target": "front_end_technology_category", 
+            "key": "category_id"
+        }, 
+        {
+            "source": "follow_company", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "follow_company", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "feed_message_keywords", 
+            "target": "feed_message", 
+            "key": "feed_message_guid"
+        }, 
+        {
+            "source": "feed_message_keywords", 
+            "target": "feed_keyword", 
+            "key": "keywords_id"
+        }, 
+        {
+            "source": "case_study", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "facebook_emails", 
+            "target": "facebook_account", 
+            "key": "facebook_account_id"
+        }, 
+        {
+            "source": "facebook_emails", 
+            "target": "organisation_social_history", 
+            "key": "history_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_without_accreditation", 
+            "target": "abstract_organisation_profile_search", 
+            "key": "search_partner_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_without_accreditation", 
+            "target": "organisation_accreditation", 
+            "key": "without_accreditation_id"
+        }, 
+        {
+            "source": "gfk_companies", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_area_code", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_contact", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "project", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "uk_gov_contract", 
+            "target": "uk_gov_contracts_buyer", 
+            "key": "buyer_id"
+        }, 
+        {
+            "source": "industry", 
+            "target": "industry_group", 
+            "key": "industry_group_id"
+        }, 
+        {
+            "source": "iqblade_growth_index", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "office_postcode", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_rival_iq_summary", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_area", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_social_history", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_primary_types", 
+            "target": "abstract_organisation_profile_search", 
+            "key": "search_partner_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search_primary_types", 
+            "target": "primary_type", 
+            "key": "primary_types_id"
+        }, 
+        {
+            "source": "technology", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "police_tender", 
+            "target": "organisation", 
+            "key": "organisation_using_id"
+        }, 
+        {
+            "source": "organisation_sic_codes", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_sic_codes", 
+            "target": "sic_code_mapping", 
+            "key": "sic_code_mapping_id"
+        }, 
+        {
+            "source": "share_detail", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "uk_gov_contract_industries", 
+            "target": "uk_gov_contract", 
+            "key": "uk_gov_contract_id"
+        }, 
+        {
+            "source": "organisation_to_glass_door_mapping", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "events", 
+            "target": "brands", 
+            "key": "brand_id"
+        }, 
+        {
+            "source": "events", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "iqblade_prospects", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "iqblade_prospects", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "organisation_target_sector", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "organisation_target_sector", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_phone_numbers", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "shareholder", 
+            "target": "share_capital_structure", 
+            "key": "share_capital_structure_id"
+        }, 
+        {
+            "source": "domain_aliases", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "authorities", 
+            "target": "users", 
+            "key": "username"
+        }, 
+        {
+            "source": "user_interest", 
+            "target": "users", 
+            "key": "user_username"
+        }, 
+        {
+            "source": "potential_sector_tag", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "potential_sector_tag", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "organisation_office", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "ojeucontract_codes", 
+            "target": "cpvcode", 
+            "key": "codes_id"
+        }, 
+        {
+            "source": "ojeucontract_codes", 
+            "target": "ojeucontract", 
+            "key": "ojeucontract_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search", 
+            "target": "sector", 
+            "key": "sector_id"
+        }, 
+        {
+            "source": "abstract_organisation_profile_search", 
+            "target": "country", 
+            "key": "country_id"
+        }, 
+        {
+            "source": "youtube_history", 
+            "target": "youtube_account", 
+            "key": "youtube_account_id"
+        }, 
+        {
+            "source": "achieved_organisation_standard", 
+            "target": "organisation", 
+            "key": "organisation_id"
+        }, 
+        {
+            "source": "achieved_organisation_standard", 
+            "target": "organisation_standard", 
+            "key": "organisation_standard_id"
+        }
+    ], 
+    "multigraph": false
+}
