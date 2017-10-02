@@ -1,4 +1,28 @@
 
+SELECT primary_type_id, 
+	ROUND(length(introduction), -2)    AS bucket,
+       COUNT(*)                    AS COUNT,
+       RPAD('', LN(COUNT(*)), '*') AS bar
+FROM   organisation
+where primary_type_id in ('MSP', 'Reseller', 'ISV')
+GROUP BY primary_type_id, bucket;
+
++--------+-------+---------+
+| bucket | COUNT | bar     |
++--------+-------+---------+
+|   NULL |    69 | ****    |
+|      0 |   817 | ******* |
+|   1000 |  1051 | ******* |
+|   2000 |   233 | *****   |
+|   3000 |    40 | ****    |
+|   4000 |     6 | **      |
+|   5000 |     6 | **      |
+|   6000 |     3 | *       |
+|   7000 |     4 | *       |
+|  10000 |     1 |         |
+|  11000 |     3 | *       |
++--------+-------+---------+
+
 /* asset base to revenue */
 
 select primary_type_id, ix_twitter, count(*)
@@ -71,6 +95,34 @@ group by primary_type_id, ix_twitter_account, ix_twitter_desc, financial_year;
 | Vendor               |                  1 |           2014 |      235 |
 | Vendor               |                  1 |           2015 |      205 |
 +----------------------+--------------------+----------------+----------+
+
+
+select primary_type_id, financial_year, count(*)
+from (
+select distinct a.id, a.primary_type_id, 
+	case when b.id is not null then 1 else 0 end as ix_twitter_account, 
+	case when length(a.introduction) > 0 then 1 else 0 end as ix_twitter_desc
+from organisation as a
+left join twitter_account as b
+on a.twitter_account_id = b.id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') 
+) as c 
+left join organisation_year_values as b
+on c.id = b.organisation_id
+where financial_year in (2014,2015) and ix_twitter_desc = 1
+group by primary_type_id, ix_twitter_desc, financial_year;
+
++-----------------+----------------+----------+
+| primary_type_id | financial_year | count(*) |
++-----------------+----------------+----------+
+| ISV             |           2014 |      985 |
+| ISV             |           2015 |     1007 |
+| MSP             |           2014 |      193 |
+| MSP             |           2015 |      180 |
+| Reseller        |           2014 |      659 |
+| Reseller        |           2015 |      645 |
++-----------------+----------------+----------+
+/* Introduction column brings more cases to be analysed */
 
 select primary_type_id, financial_year, count(*)
 from (
