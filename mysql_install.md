@@ -38,7 +38,7 @@ $ mysqld --verbose --help | grep -A 1 "Default options"
 Reinitialise the complete mysql installation
 
 ```bash
-mysqld --defaults-file=/opt/mysql/mysql/etc/my.cnf --initialize --user=mysql
+ 
 ```
 
 And then perform an update of the password

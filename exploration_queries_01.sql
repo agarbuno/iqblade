@@ -1,6 +1,82 @@
 
 /* achievemets certaification */ 
 
+select primary_type_id, 
+	case when b.organisation_id is not null then 1 else 0 end as ix_cert, 
+	count(*)
+from organisation as a
+left join (
+select organisation_id, organisation_accreditation_id, fname, aname
+from achieved_organisation_accreditation as a
+left join (
+	select a.id, b.name as fname, a.name as aname
+	from organisation_accreditation as a
+	left join organisation_accreditation_family as b 
+	on a.family_id = b.id
+) as b 
+on a.organisation_accreditation_id = b.id
+) as b
+on a.id = b.organisation_id
+where primary_type_id in ('MSP', 'Reseller', 'ISV')
+group by primary_type_id, ix_cert;
+
++-----------------+---------+----------+
+| primary_type_id | ix_cert | count(*) |
++-----------------+---------+----------+
+| ISV             |       0 |     1156 |
+| ISV             |       1 |       92 |
+| MSP             |       0 |       60 |
+| MSP             |       1 |      257 |
+| Reseller        |       0 |      256 |
+| Reseller        |       1 |      923 |
++-----------------+---------+----------+
+
+select a.id, primary_type_id, b.*
+from organisation as a
+left join (
+select organisation_id, organisation_accreditation_id, fname, aname
+from achieved_organisation_accreditation as a
+left join (
+	select a.id, b.name as fname, a.name as aname
+	from organisation_accreditation as a
+	left join organisation_accreditation_family as b 
+	on a.family_id = b.id
+) as b 
+on a.organisation_accreditation_id = b.id
+) as b
+on a.id = b.organisation_id
+where primary_type_id in ('MSP', 'Reseller', 'ISV');
+
+/* Number of certifications per organisation */
+select reps, count(*) from (
+	select organisation_id,  count(*) as reps  
+	from achieved_organisation_accreditation 
+	group by organisation_id ) as a 
+group by reps;
+
++------+----------+
+| reps | count(*) |
++------+----------+
+|    1 |     1708 |
+|    2 |      351 |
+|    3 |      136 |
+|    4 |       53 |
+|    5 |       24 |
+|    6 |        5 |
+|    7 |        4 |
+|    8 |        2 |
+|    9 |        2 |
+|   10 |        2 |
++------+----------+
+
+select count(distinct organisation_id) 
+from achieved_organisation_accreditation;
+
++---------------------------------+
+| count(distinct organisation_id) |
++---------------------------------+
+|                            2287 |
++---------------------------------+
 
 SELECT 	ROUND(length(introduction), -3)    AS bucket,
        COUNT(*)                    AS COUNT,
