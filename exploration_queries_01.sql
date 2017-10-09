@@ -1,5 +1,66 @@
+/* */ 
 
-/* achievemets certaification */ 
+create view data_financials as 
+select a.primary_type_id, b.*
+from organisation as a
+inner join (
+select financial_year, turnover, export, cost_of_sales, gross_profit,
+wages_and_salaries, director_emoluments, operating_profit, depreciation,
+auditfees, interest_payments, pretax_profit, taxation, profit_after_tax,
+retained_profit, tangible_assets, intangible_assets, total_fixed_assets, stock,
+trade_debtors, cash, other_debtors, miscellaneous_current_assets,
+total_current_assets, trade_creditors, bank_loans_and_overdrafts,
+other_short_term_finance, miscellaneous_current_liabilities,
+total_current_liabilities, bank_loans_and_overdrafts_and_ltl,
+other_long_term_finance, total_long_term_finance, called_up_share_capital,
+p_and_l_account_reserve, revaluation_reserve, sundry_reserves,
+shareholder_funds, net_worth, working_capital, total_assets, total_liabilities,
+net_assets, net_cash_flow_from_operations, net_cash_flow_before_financing,
+net_cash_flow_from_financing, increase_in_cash, capital_employed,
+number_of_employees, pre_tax_profit_margin, current_ratio, gearing,
+sales_networking_capital, equity_in_percent, creditor_days, debtor_days,
+liquidity_acid_test, return_on_capital_employed,
+return_on_total_assets_employed, current_debt_ratio, total_debt_ratio,
+stock_turnover_ratio, return_on_net_assets_employed, gross_profit_per_employee,
+wages_and_salaries_as_pct_gp, operating_costs, operating_costs_as_pct_gp,
+operating_costs_per_employee, operating_profit_pct,
+profit_after_tax_per_employee, gross_profit_pct, profit_after_tax_pct,
+profit_after_tax_as_pct_operating_costs, organisation_id, difference,
+revenue_growth_pct, dividends
+from organisation_year_values
+where financial_year = 2015
+) as b
+on a.id = b.organisation_id
+where a.primary_type_id in   ('MSP', 'Reseller', 'ISV');
+
+select a.id, a.primary_type_id, count(*)
+from organisation as a
+left join (
+	select * 
+	from organisation_year_values
+	where financial_year = 2015
+) as b
+on a.id = b.organisation_id
+where a.primary_type_id in   ('MSP', 'Reseller', 'ISV')
+group by a.id, a.primary_type_id
+order by count(*) desc 
+limit 5;
+
+select a.id, b.organisation_id, a.primary_type_id, b.financial_year 
+from organisation as a
+left join (
+	select * 
+	from organisation_year_values
+	where financial_year = 2015
+) as b
+on a.id = b.organisation_id
+where a.primary_type_id in   ('MSP', 'Reseller', 'ISV');
+
+select a.id
+from organisation as a
+where a.primary_type_id in   ('MSP', 'Reseller', 'ISV');
+
+/* achievements certification */ 
 
 select primary_type_id, 
 	case when b.organisation_id is not null then 1 else 0 end as ix_cert, 
