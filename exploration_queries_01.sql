@@ -1,6 +1,6 @@
 /* */ 
 
-create view data_financials as 
+create view data_financials_2016 as 
 select a.primary_type_id, b.*
 from organisation as a
 inner join (
@@ -28,7 +28,7 @@ profit_after_tax_per_employee, gross_profit_pct, profit_after_tax_pct,
 profit_after_tax_as_pct_operating_costs, organisation_id, difference,
 revenue_growth_pct, dividends
 from organisation_year_values
-where financial_year = 2015
+where financial_year = 2016
 ) as b
 on a.id = b.organisation_id
 where a.primary_type_id in   ('MSP', 'Reseller', 'ISV');
