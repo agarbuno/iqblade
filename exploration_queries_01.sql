@@ -1,6 +1,4 @@
-/* */ 
-
-create view data_financials_2016 as 
+create view data_financials_all as 
 select a.primary_type_id, b.*
 from organisation as a
 inner join (
@@ -28,7 +26,225 @@ profit_after_tax_per_employee, gross_profit_pct, profit_after_tax_pct,
 profit_after_tax_as_pct_operating_costs, organisation_id, difference,
 revenue_growth_pct, dividends
 from organisation_year_values
-where financial_year = 2016
+where financial_year in (2012, 2013, 2014, 2015, 2016) and 
+turnover is not NULL
+) as b
+on a.id = b.organisation_id
+where a.primary_type_id in  ('MSP', 'Reseller', 'ISV')
+and b.organisation_id not in (422);
+
+select a.primary_type_id, 
+case when b.turnover is not Null then 1 else 0 end as ix_turnover, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2012, 2013, 2014, 2015, 2016)
+group by a.primary_type_id, ix_turnover;
+
+
+
+select count(distinct organisation_id) as n_orgs 
+from organisation_year_values
+where financial_year in (2014,2015,2016);
+
++--------+
+| n_orgs |
++--------+
+|  17904 |
++--------+
+
+select case when b.number_of_employees is not Null and b.turnover is not null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where (a.primary_type_id not in ('MSP', 'Reseller', 'ISV') or a.primary_type_id is null) and 
+b.financial_year  in (2014, 2015, 2016)
+group by ix_useful;
+
++-----------+--------+
+| ix_useful | n_orgs |
++-----------+--------+
+|         0 |  12119 |
+|         1 |   4250 |
++-----------+--------+
+
+select a.primary_type_id, 
+case when b.turnover is not Null then 1 else 0 end as ix_turnover, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2012, 2013, 2014, 2015, 2016)
+group by a.primary_type_id, ix_turnover;
+
+
++-----------------+-------------+--------+
+| primary_type_id | ix_turnover | n_orgs |
++-----------------+-------------+--------+
+| ISV             |           0 |    869 |
+| ISV             |           1 |    490 | -> 36%
+| MSP             |           0 |    126 |
+| MSP             |           1 |    109 | -> 46%
+| Reseller        |           0 |    610 |
+| Reseller        |           1 |    244 | -> 28%
++-----------------+-------------+--------+
+
+select case when b.turnover is not Null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2012, 2013, 2014, 2015, 2016)
+group by ix_useful;
+
++-----------+--------+
+| ix_turnov | n_orgs |
++-----------+--------+
+|         0 |   1605 |
+|         1 |    843 | -> 34%
++-----------+--------+
+
+select case when b.number_of_employees is not Null and b.turnover is not null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2012, 2013, 2014, 2015, 2016)
+group by ix_useful;
+
++-----------+--------+
+| ix_useful | n_orgs |
++-----------+--------+
+|         0 |   1726 |
+|         1 |    669 |
++-----------+--------+
+
+select case when b.number_of_employees is not Null and b.turnover is not null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2014, 2015, 2016)
+group by ix_useful;
+
+
+
++-----------+--------+
+| ix_useful | n_orgs |
++-----------+--------+
+|         0 |   1649 |
+|         1 |    636 |
++-----------+--------+
+
+/* Just one of the two */
+
+select a.primary_type_id,
+case when b.turnover is not Null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in  ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2014, 2015, 2016)
+group by a.primary_type_id, ix_useful;
+
+/* */
+
+select a.primary_type_id,
+case when b.number_of_employees is not Null or b.turnover is not null then 1 else 0 end as ix_useful, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in  ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2014, 2015, 2016)
+group by a.primary_type_id, ix_useful;
+
+/* OR */
+
++-----------------+-----------+--------+
+| primary_type_id | ix_useful | n_orgs |
++-----------------+-----------+--------+
+| ISV             |         0 |    781 |
+| ISV             |         1 |    538 |
+| MSP             |         0 |    115 |
+| MSP             |         1 |    113 |
+| Reseller        |         0 |    579 |
+| Reseller        |         1 |    269 |
++-----------------+-----------+--------+
+
+/* AND */
+
++-----------------+-----------+--------+
+| primary_type_id | ix_useful | n_orgs |
++-----------------+-----------+--------+
+| ISV             |         0 |    887 |
+| ISV             |         1 |    373 |
+| MSP             |         0 |    141 |
+| MSP             |         1 |     81 |
+| Reseller        |         0 |    621 |
+| Reseller        |         1 |    182 |
++-----------------+-----------+--------+
+
+select b.financial_year, a.primary_type_id,
+case when b.number_of_employees is not Null then 1 else 0 end as ix_employee, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in  ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2014, 2015, 2016)
+group by b.financial_year, a.primary_type_id, ix_employee;
+
+select b.financial_year, a.primary_type_id,
+case when b.turnover is not Null then 1 else 0 end as ix_turnover, 
+count(distinct a.id) as n_orgs
+from organisation as a  
+left join organisation_year_values as b
+on a.id = b.organisation_id
+where a.primary_type_id in  ('MSP', 'Reseller', 'ISV') and 
+b.financial_year in (2014, 2015, 2016)
+group by b.financial_year, a.primary_type_id, ix_turnover;
+
+
+/* Data to be extracted to perform the classification */ 
+
+create view data_financials_2015 as 
+select a.primary_type_id, b.*
+from organisation as a
+inner join (
+select financial_year, turnover, export, cost_of_sales, gross_profit,
+wages_and_salaries, director_emoluments, operating_profit, depreciation,
+auditfees, interest_payments, pretax_profit, taxation, profit_after_tax,
+retained_profit, tangible_assets, intangible_assets, total_fixed_assets, stock,
+trade_debtors, cash, other_debtors, miscellaneous_current_assets,
+total_current_assets, trade_creditors, bank_loans_and_overdrafts,
+other_short_term_finance, miscellaneous_current_liabilities,
+total_current_liabilities, bank_loans_and_overdrafts_and_ltl,
+other_long_term_finance, total_long_term_finance, called_up_share_capital,
+p_and_l_account_reserve, revaluation_reserve, sundry_reserves,
+shareholder_funds, net_worth, working_capital, total_assets, total_liabilities,
+net_assets, net_cash_flow_from_operations, net_cash_flow_before_financing,
+net_cash_flow_from_financing, increase_in_cash, capital_employed,
+number_of_employees, pre_tax_profit_margin, current_ratio, gearing,
+sales_networking_capital, equity_in_percent, creditor_days, debtor_days,
+liquidity_acid_test, return_on_capital_employed,
+return_on_total_assets_employed, current_debt_ratio, total_debt_ratio,
+stock_turnover_ratio, return_on_net_assets_employed, gross_profit_per_employee,
+wages_and_salaries_as_pct_gp, operating_costs, operating_costs_as_pct_gp,
+operating_costs_per_employee, operating_profit_pct,
+profit_after_tax_per_employee, gross_profit_pct, profit_after_tax_pct,
+profit_after_tax_as_pct_operating_costs, organisation_id, difference,
+revenue_growth_pct, dividends
+from organisation_year_values
+where financial_year = 2015
 ) as b
 on a.id = b.organisation_id
 where a.primary_type_id in   ('MSP', 'Reseller', 'ISV');
